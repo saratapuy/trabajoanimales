@@ -11,9 +11,6 @@ import java.util.Date;
  */
 public class clsAnimales {
 
-    public void setReproduccion(reproduccion Reproduccion) {
-        this._Reproduccion = Reproduccion;
-    }
     public enum estructura {vertebrados, invertebrados};
     public enum reproduccion {oviparos, mamiferos};
     
@@ -80,4 +77,7 @@ public class clsAnimales {
         return _Reproduccion;
     }
     
+    public void Reproduccion(reproduccion Reproduccion) {
+        this._Reproduccion = Reproduccion;
+    }
 }
